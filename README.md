@@ -56,10 +56,10 @@ How to run appium with emulator
     %ANDROID_HOME%\platform-tools
     %ANDROID_HOME%\tools
 
-    if you got "error has terminated solution for emulator img" you can check
-    https://stackoverflow.com/questions/57122856/error-while-downloading-google-apis-intel-x86-atom-system-image
-    https://blog.andevindo.com/the-emulator-process-for-avd-has-terminated-error-log/
-    https://www.youtube.com/watch?v=bOURCXjmXlg
+if you got "error has terminated solution for emulator img" you can check
+https://stackoverflow.com/questions/57122856/error-while-downloading-google-apis-intel-x86-atom-system-image
+https://blog.andevindo.com/the-emulator-process-for-avd-has-terminated-error-log/
+https://www.youtube.com/watch?v=bOURCXjmXlg
 
 
 How to make appium project
