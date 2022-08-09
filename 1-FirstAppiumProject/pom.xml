@@ -6,6 +6,8 @@
 	<artifactId>1-Appium</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>appium</name>
+	
+	
 
 	<dependencies>
 		<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
@@ -21,8 +23,6 @@
 			<artifactId>java-client</artifactId>
 			<version>7.0.0</version>
 		</dependency>
-
-
 
 	</dependencies>
 </project>
