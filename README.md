@@ -48,7 +48,7 @@ Installing appium with APPIUM DESKTOP CLIENT
 How to run appium with emulator
     https://www.seleniumeasy.com/appium-tutorials/running-appium-tests-on-android-emulator
 
-    I suggest you to download Android Studio, because it inclucde SDK
+    I suggest you to download Android Studio, because it inclucded SDK
     And dont forget to make System variable on the Environment system
     ANDROID_HOME	C:\Users\ASUS\AppData\Local\Android\Sdk
 
