@@ -93,3 +93,15 @@ How to make appium project
        Start application
 
     Step 7 : Run and validate
+
+How to use UIAutomatorViewer for Object Locators
+
+        Step 1 : Connect mobile device to computer systemthrough cable  OR  through wifi OR open your emulator
+  
+        Step 2 : Run command adb devices
+
+        Step 3 : Start UIAutomatorViewer
+            Windows - goto android-sdk/tools/bin
+            Mac - from terminal run command uiautomatorviewer
+
+        Step 4 : Open the application on mobile device and capture on uiautomatorviewer to find element locators
