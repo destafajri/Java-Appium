@@ -63,6 +63,7 @@ https://www.youtube.com/watch?v=bOURCXjmXlg
 
 
 How to make appium project
+
     Step 1 : Open Eclipse IDE
 
     Step 2 : Create a Java maven project
