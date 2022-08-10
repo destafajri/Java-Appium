@@ -96,7 +96,7 @@ How to make appium project
 
 How to use UIAutomatorViewer for Object Locators
 
-        Step 1 : Connect mobile device to computer systemthrough cable  OR  through wifi OR open your emulator
+        Step 1 : Connect mobile device to computer system through cable  OR  through wifi OR open your emulator
   
         Step 2 : Run command adb devices
 
