@@ -15,7 +15,7 @@
             apps
             will keep application files (.apk, .ipa, .app)
     Step 8 : Inside tests folder create a class - BaseClass
-    Step 9 : Create setup & teardown functions
+    Step 9 : Create setup & afterTest functions
             Annotate with testng annotations
     Step 10 : Add code for desired capabilities
     Step 11 : Attach mobile device (or make emulator ready)
