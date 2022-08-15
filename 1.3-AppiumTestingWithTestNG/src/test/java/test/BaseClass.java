@@ -28,9 +28,14 @@ public class BaseClass {
 			cap.setCapability(MobileCapabilityType.PLATFORM_VERSION, "9");
 
 			cap.setCapability(MobileCapabilityType.NEW_COMMAND_TIMEOUT, 60);
+			
+			// App data
+			cap.setCapability("appPackage", "com.android.calculator2");
+			cap.setCapability("appActivity", "com.android.calculator2.Calculator");
 
-	//		cap.setCapability(MobileCapabilityType.APP, "");
-			cap.setCapability(MobileCapabilityType.BROWSER_NAME, "Chrome");
+
+//			cap.setCapability(MobileCapabilityType.APP, "");			
+//			cap.setCapability(MobileCapabilityType.BROWSER_NAME, "Chrome");
 			URL url = new URL("http://127.0.0.1:4723/wd/hub");
 			driver = new AppiumDriver<MobileElement>(url, cap);
 
@@ -39,7 +44,7 @@ public class BaseClass {
 	
 	@AfterSuite
 	public void afterTest() {
-		driver.close();
+//		driver.close();
 		driver.quit();
 	}
 
