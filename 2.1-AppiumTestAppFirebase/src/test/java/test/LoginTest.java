@@ -36,6 +36,12 @@ public class LoginTest extends BaseClass {
 		//login
 		MobileElement masukBtn = driver.findElement(By.xpath("//android.widget.Button[@content-desc='Masuk']"));
 		masukBtn.click();
+		
+		//alert
+		MobileElement alert = driver.findElement(By.xpath("//android.view.View[@content-desc='Email yang Anda masukkan belum terdaftar']"));
+		
+		//Assertion
+		Assert.assertTrue(alert.isDisplayed());
 
 	}
 	
