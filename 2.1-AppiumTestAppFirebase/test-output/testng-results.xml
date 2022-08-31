@@ -1,25 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="2" total="4" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="9893" started-at="2022-08-31T16:38:42Z" finished-at="2022-08-31T16:38:51Z">
+  <suite name="Default suite" duration-ms="11879" started-at="2022-08-31T17:01:39Z" finished-at="2022-08-31T17:01:51Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="9893" started-at="2022-08-31T16:38:42Z" finished-at="2022-08-31T16:38:51Z">
-      <class name="test.TestClass">
-        <test-method status="PASS" signature="setup()[pri:0, instance:test.TestClass@7c0c77c7]" name="setup" is-config="true" duration-ms="8360" started-at="2022-08-31T16:38:42Z" finished-at="2022-08-31T16:38:50Z">
+    <test name="Default test" duration-ms="11879" started-at="2022-08-31T17:01:39Z" finished-at="2022-08-31T17:01:51Z">
+      <class name="test.LoginTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:test.LoginTest@60d8c9b7]" name="setup" is-config="true" duration-ms="7630" started-at="2022-08-31T17:01:39Z" finished-at="2022-08-31T17:01:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="loginElement()[pri:0, instance:test.TestClass@7c0c77c7]" name="loginElement" duration-ms="1495" started-at="2022-08-31T16:38:50Z" finished-at="2022-08-31T16:38:51Z">
+        <test-method status="PASS" signature="loginBtn()[pri:0, instance:test.LoginTest@60d8c9b7]" name="loginBtn" duration-ms="1588" started-at="2022-08-31T17:01:46Z" finished-at="2022-08-31T17:01:48Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginElement -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:test.TestClass@7c0c77c7]" name="afterTest" is-config="true" duration-ms="1" started-at="2022-08-31T16:38:51Z" finished-at="2022-08-31T16:38:51Z">
+        </test-method> <!-- loginBtn -->
+        <test-method status="PASS" signature="loginInvalid()[pri:0, instance:test.LoginTest@60d8c9b7]" name="loginInvalid" duration-ms="2621" started-at="2022-08-31T17:01:48Z" finished-at="2022-08-31T17:01:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginInvalid -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:test.LoginTest@60d8c9b7]" name="afterTest" is-config="true" duration-ms="0" started-at="2022-08-31T17:01:51Z" finished-at="2022-08-31T17:01:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-      </class> <!-- test.TestClass -->
+      </class> <!-- test.LoginTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

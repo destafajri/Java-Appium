@@ -33,9 +33,6 @@ public class BaseClass {
 			cap.setCapability("appPackage", "com.golektruk.dotcom");
 			cap.setCapability("appActivity", "com.golektruk.dotcom.MainActivity");
 
-
-//			cap.setCapability(MobileCapabilityType.APP, "");			
-//			cap.setCapability(MobileCapabilityType.BROWSER_NAME, "Chrome");
 			URL url = new URL("http://127.0.0.1:4723/wd/hub");
 			driver = new AppiumDriver<MobileElement>(url, cap);
 
