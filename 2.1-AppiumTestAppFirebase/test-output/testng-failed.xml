@@ -5,6 +5,7 @@
     <classes>
       <class name="test.TestClass">
         <methods>
+          <include name="loginElement"/>
           <include name="setup"/>
           <include name="afterTest"/>
           <include name="testLogin"/>

@@ -7,18 +7,15 @@ import org.testng.annotations.Test;
 
 import io.appium.java_client.MobileElement;
 
-public class TestClass extends BaseClass{
-	MobileElement masukBtn;
-	
-	public void loginElement() {
-		//Mobile Element
-		this.masukBtn = driver.findElement(By.xpath("//android.widget.Button[@content-desc='Masuk']"));
-		
-	}
-	
+public class TestClass extends BaseClass {
+
 	@Test
-	public void testLogin() {
+	public void loginBtn() throws Exception {
+		// Mobile Element
+		Thread.sleep(1000);
+		MobileElement masukBtn = driver.findElement(By.xpath("//android.widget.Button[@content-desc='Masuk']"));
 		masukBtn.click();
+
 	}
 
 }
