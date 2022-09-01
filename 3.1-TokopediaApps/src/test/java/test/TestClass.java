@@ -12,7 +12,8 @@ import io.appium.java_client.MobileElement;
 public class TestClass extends BaseClass {
 
 	@Test(priority=1)
-	public void onBoardingPage() {
+	public void onBoardingPage() throws Exception {
+		Thread.sleep(1000);
 		// Mobile Element
 		MobileElement GabungSekarangBtn = driver.findElement(By.id("com.tokopedia.tkpd.df_base:id/buttonGlobalDynamicOnbaording"));
 		MobileElement LewatiSekarangBtn = driver.findElement(By.id("com.tokopedia.tkpd.df_base:id/skipDynamicOnbaording"));
@@ -28,10 +29,10 @@ public class TestClass extends BaseClass {
 	@Test(priority=2)
 	public void homePage() throws Exception {
 		// Mobile Element
-		Thread.sleep(1000);
 		MobileElement LewatiBtn = driver.findElement(By.id("com.tokopedia.tkpd.df_base:id/skipDynamicOnbaording"));
 		LewatiBtn.click();
 		
+		Thread.sleep(1000);
 		MobileElement HomeBtn = driver.findElement(By.id("com.tokopedia.tkpd:id/menu_home"));
 		//Assert
 		assertTrue(HomeBtn.isDisplayed());
