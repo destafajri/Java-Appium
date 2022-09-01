@@ -5,9 +5,9 @@
     <classes>
       <class name="test.TestClass">
         <methods>
+          <include name="SearchBar"/>
           <include name="setup"/>
           <include name="afterTest"/>
-          <include name="onBoardingPage"/>
         </methods>
       </class> <!-- test.TestClass -->
     </classes>
